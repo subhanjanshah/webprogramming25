@@ -26,3 +26,39 @@ include 'header.php';
 </body>
 </html>
 <?php include 'footer.php' ?>
+<br>
+
+Printing the length of the string:
+<?php
+# 5. Printing the length of the string. 
+$str1 = "Hello";
+$str2 = "World";
+$combined = $str1 . $str2;
+echo strlen($combined);
+?>
+
+<br>
+
+<?php 
+$num1=298;
+$num2=234;
+$num3=46;
+
+$total = $num1 + $num2 + $num3;
+
+echo "The sum of numbers are: " . $total;
+?>
+
+<br>
+
+<?php 
+echo "The web browser you're using is: " . $_SERVER['HTTP_USER_AGENT'];
+?>
+
+<br>
+
+<?php 
+$current_file = basename($_SERVER['PHP_SELF']);
+$mod_timestamp = filemtime($current_file);
+echo "Last modified: " . date("F d, Y H:i:s", $mod_timestamp); 
+?>
