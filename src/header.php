@@ -60,6 +60,7 @@
             <a href="./sample.php" class="nav-item"> Home Page</a>
             <a href="./aboutus.php" class="nav-item"> About Us</a>
             <a href="./contactus.php" class="nav-item"> Contact Us</a>
+            <a href="./ex3.php" class="nav-item"> Exercise 3</a>
         </div>
 </nav>
     </header>
