@@ -30,7 +30,9 @@
             padding: 20px;
             text-align: center;
         }
-      /* footer {
+        /* 
+        footer 
+        {
             background-color: #333;
             color: white;
             padding: 10px;
@@ -39,7 +41,7 @@
             bottom: 0;
             width: 100%;
         }
-            */
+        */
         main {
             padding: 20px;
             text-align: center;
