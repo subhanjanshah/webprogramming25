@@ -61,6 +61,7 @@
             <a href="./aboutus.php" class="nav-item"> About Us</a>
             <a href="./contactus.php" class="nav-item"> Contact Us</a>
             <a href="./ex3.php" class="nav-item"> Exercise 3</a>
+            <a href="./ex4.php" class="nav-item"> Exercise 4</a>
         </div>
 </nav>
     </header>
