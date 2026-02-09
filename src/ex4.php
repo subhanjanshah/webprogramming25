@@ -50,3 +50,4 @@ switch ($current_month){
 ?>
 <hr>
 
+<h2> Multiplication table </h2>
