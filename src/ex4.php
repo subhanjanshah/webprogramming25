@@ -13,10 +13,10 @@ include 'header.php';
     <form method = "post" action = "">
         Name: <input type="text" name = "name" required> <br><br>
         Age: <input type="number" name = "age" required> <br><br>
-        <input type = "submit" name = "submit" value = "Check">
+        <input type = "submit" name = "submit_voting" value = "Check">
 </form>
 <?php 
-if (isset($_POST['submit']))
+if (isset($_POST['submit_voting']))
 {
     $name = $_POST['name'];
     $age = $_POST['age'];
@@ -32,8 +32,7 @@ if ($age >= 18 )
 ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
-<?php include 'footer.php' ?>
-</html>
+
 <hr>
 
 <?php
@@ -51,3 +50,28 @@ switch ($current_month){
 <hr>
 
 <h2> Multiplication table </h2>
+<form method = "post" action = "">
+    <div class="mb-3">
+        Enter a number: <input type="number" class = "form-control" name="n" placeholder = "e.g., 5" required> <br><br>
+    <div> 
+        <input type = "submit" name = "submit_table" value = "Generate Table" class = "btn btn-primary">
+</form>
+
+<?php
+if (isset($_POST['submit_table'])){
+    $n=$_POST['n'];
+    
+    for($i = 1; $i <=10; $i++)
+        {
+            $result = $n * $i;
+            echo "<li class = 'list-group-item'> $n x $i = $result</li>";
+        }
+}
+?>
+</div>
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <?php include 'footer.php'; ?>
+    </div>
+</footer>
+</html>
