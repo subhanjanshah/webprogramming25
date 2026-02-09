@@ -35,3 +35,18 @@ if ($age >= 18 )
 <?php include 'footer.php' ?>
 </html>
 <hr>
+
+<?php
+$current_month = date('F');
+switch ($current_month){
+    case "August":
+    echo "It's August, so it's still holiday";
+    break;
+
+    default:
+    echo "It's not August, it's $current_month so I don't have any holidays.";
+    break;
+}
+?>
+<hr>
+
