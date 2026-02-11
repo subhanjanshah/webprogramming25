@@ -25,6 +25,14 @@ include 'header.php';
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<?php
+    $fname = $_POST['name']; 
+    $lname = $_POST['name1'];
+
+        echo "<h3>Hello $fname $lname, You are welcome to my site</h3>";
+?>
+
 <?php include 'footer.php' ?>
 <br>
 
