@@ -37,7 +37,8 @@ if ($age >= 18 )
 
 <?php
 $current_month = date('F');
-switch ($current_month){
+switch ($current_month)
+{
     case "August":
     echo "It's August, so it's still holiday";
     break;
@@ -58,7 +59,8 @@ switch ($current_month){
 </form>
 
 <?php
-if (isset($_POST['submit_table'])){
+if (isset($_POST['submit_table']))
+    {
     $n=$_POST['n'];
     
     for($i = 1; $i <=10; $i++)
@@ -66,7 +68,7 @@ if (isset($_POST['submit_table'])){
             $result = $n * $i;
             echo "<li class = 'list-group-item'> $n x $i = $result</li>";
         }
-}
+    }
 ?>
 </div>
 <footer class="footer mt-auto py-3 bg-light">

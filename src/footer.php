@@ -1,5 +1,5 @@
-    <footer>
-        <p>&copy; 2025 Your Website. All rights reserved.</p>
+</main> <footer>
+        <p>Copyright &copy; 2026</p>
     </footer>
 </body>
 </html>

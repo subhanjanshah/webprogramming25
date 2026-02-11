@@ -10,7 +10,7 @@ include 'header.php';
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-<form action="./formprint.php" method="post">
+<form action="formprint.php" method="post">
 <div class="mb-3">
             <label class="form-label">First name:</label>
             <input type="text" class="form-control" name="name">
@@ -22,18 +22,10 @@ include 'header.php';
         <input type="submit" class="btn btn-primary">
     </form>
 </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
 
-<?php
-    $fname = $_POST['name']; 
-    $lname = $_POST['name1'];
-
-        echo "<h3>Hello $fname $lname, You are welcome to my site</h3>";
-?>
-
-<?php include 'footer.php' ?>
 <br>
 
 Printing the length of the string:
@@ -70,3 +62,5 @@ $current_file = basename($_SERVER['PHP_SELF']);
 $mod_timestamp = filemtime($current_file);
 echo "Last modified: " . date("F d, Y H:i:s", $mod_timestamp); 
 ?>
+
+<?php include 'footer.php' ?>

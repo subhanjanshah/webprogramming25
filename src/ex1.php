@@ -1,3 +1,8 @@
+<?php
+$title = "Exercise 1";
+$md = "use an appropriate md";
+include 'header.php';
+?>
 <html>
 <body>
     <style>
@@ -55,3 +60,4 @@
     ?>
 </body>
 </html>
+<?php include 'footer.php'?>

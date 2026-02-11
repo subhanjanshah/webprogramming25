@@ -2,6 +2,7 @@
 $title = "Exercise 3 Form Output";
 $md = "use an appropriate md";
 include 'header.php';
+
 ?>
 <html>
 <head>
