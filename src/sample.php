@@ -8,4 +8,5 @@ include 'header.php';
         <p>This is a simple webpage that you can edit to include your content.</p>
         <p> It includes a header and footer, with a body area where you can add information for your users. </p>
         <p> It also includes two different pages: about us and contact details. </p>
+    </main>
 <?php include 'footer.php';?>
